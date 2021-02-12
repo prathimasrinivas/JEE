@@ -1,0 +1,14 @@
+package com.xworkz.nyka;
+
+import com.mysql.jdbcimpl.MysqlJdbcImpl.MysqlJdbcImpl1;
+
+public class UsingMysqlConnector {
+
+	public static void main(String[] args) {
+		MysqlJdbcImpl1 ref=new MysqlJdbcImpl1();
+          ref.getConnection1();
+          ref.save();
+          ref.resultset();
+	}
+
+}
